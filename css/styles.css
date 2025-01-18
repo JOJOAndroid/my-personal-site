@@ -1,0 +1,78 @@
+/* 基础重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 公共布局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+/* 科幻主题 */
+.sci-fi-theme {
+    background: linear-gradient(135deg, #ff005c, #8000ff);
+    animation: sciFiGlow 10s infinite alternate;
+}
+
+/* 其他页面和模块化的样式 */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff005c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* 手机端 */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+}
+
+/* 平板端 */
+@media (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    header nav ul {
+        flex-direction: row;
+    }
+}
+
