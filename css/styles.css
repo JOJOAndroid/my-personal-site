@@ -1,19 +1,4 @@
-/* 重置样式 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* 通用字体和背景样式 */
-body {
-    font-family: 'Helvetica Neue', sans-serif;
-    background: #0a0a0a;
-    color: #fff;
-    line-height: 1.6;
-}
-
-/* 导航栏样式 */
+/* 导航栏 */
 .navbar {
     position: fixed;
     top: 0;
@@ -67,25 +52,6 @@ body {
 .hero-content p {
     font-size: 24px;
     margin-top: 20px;
-}
-
-/* 动画效果 */
-@keyframes textGlow {
-    0% {
-        text-shadow: 0 0 10px #ff005c, 0 0 20px #ff005c, 0 0 30px #ff005c;
-    }
-    100% {
-        text-shadow: 0 0 20px #8000ff, 0 0 40px #8000ff, 0 0 60px #ff00ff;
-    }
-}
-
-@keyframes bgAnimation {
-    0% {
-        background: linear-gradient(135deg, #ff005c, #8000ff);
-    }
-    100% {
-        background: linear-gradient(135deg, #ff8000, #ff00ff);
-    }
 }
 
 /* 页面内容区 */
