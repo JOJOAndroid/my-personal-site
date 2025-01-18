@@ -7,34 +7,67 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- 导航栏 -->
     <header>
         <nav class="navbar">
             <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="economy.html">经济</a></li>
-                <li><a href="real-estate.html">地产</a></li>
-                <li><a href="study.html">学习记录</a></li>
-                <li><a href="movies.html">电影分享</a></li>
-                <li><a href="books.html">书籍分享</a></li>
-                <li><a href="sports.html">运动分享</a></li>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#economy">经济</a></li>
+                <li><a href="#real-estate">地产</a></li>
+                <li><a href="#study">学习记录</a></li>
+                <li><a href="#movies">电影分享</a></li>
+                <li><a href="#books">书籍分享</a></li>
+                <li><a href="#sports">运动分享</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
             <h1>欢迎来到我的个人网站</h1>
-            <p>探索我的兴趣、记录与分享，点击上方导航栏进入各个页面。</p>
+            <p>探索我的兴趣与记录，点击导航进入各个页面。</p>
+        </div>
+    </section>
+
+    <!-- 页面内容 -->
+    <main>
+        <section id="economy">
+            <h2>经济</h2>
+            <p>在这里展示你的经济相关内容。</p>
         </section>
 
-        <section class="content">
-            <h2>内容模块展示</h2>
-            <p>这里是更多的内容，可以根据每个页面的主题来展示不同的内容。</p>
+        <section id="real-estate">
+            <h2>地产</h2>
+            <p>在这里展示你的地产相关内容。</p>
+        </section>
+
+        <section id="study">
+            <h2>学习记录</h2>
+            <p>在这里展示你的学习记录。</p>
+        </section>
+
+        <section id="movies">
+            <h2>电影分享</h2>
+            <p>在这里分享你喜欢的电影。</p>
+        </section>
+
+        <section id="books">
+            <h2>书籍分享</h2>
+            <p>在这里分享你读过的书籍。</p>
+        </section>
+
+        <section id="sports">
+            <h2>运动分享</h2>
+            <p>在这里分享你的运动经历。</p>
         </section>
     </main>
 
+    <!-- 页脚 -->
     <footer>
         <p>&copy; 2025 我的个人网站</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
